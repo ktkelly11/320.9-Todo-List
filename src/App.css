@@ -23,7 +23,7 @@ body {
   gap: 0.1rem;
 }
 
-.btn {
+.buttton {
   background: hsl(200, 100%, 50%, 0.1);
   border: 1px solid hsl(200, 100%, 50%);
   color: hsl(200, 100%, 50%);
@@ -60,12 +60,6 @@ body {
 
 .new-item-form input:focus {
   border: 1px solid hsl(200, 100%, 70%);
-}
-
-.header {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .list {

@@ -4,7 +4,7 @@ export default function ToDoList() {
   //  2. A list of "todo" items
   const initialTodos = [
     { number: 1, text: "Review React", completed: false },
-    { number: 2, text: "Plan Capstone", completed: false },
+    { number: 2, text: "Plan Capstone", completed: true },
     { number: 3, text: "Wireframe for Capstone", completed: false },
     { number: 4, text: "React SBA", completed: false },
     { number: 5, text: "Complete Capstone", completed: false },
@@ -19,7 +19,7 @@ export default function ToDoList() {
 
   function addTasks() {
     setTodos([initialTodos, todos]);
-    setNewTodos("");
+    setTodos("");
   }
 
   return (

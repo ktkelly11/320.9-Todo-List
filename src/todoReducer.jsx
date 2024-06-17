@@ -14,5 +14,8 @@ export default function ToDoReducer(state, { type, payload: { text } }) {
       if (hasThisText) return state;
       return [{ number: 1, text: text, completed: false }];
     }
+    case "remove_adventurer": {
+      return state.filter((s) => s.text !== text);
+    }
   }
 }

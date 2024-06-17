@@ -1,3 +1,5 @@
+// useReducer function
+
 export default function ToDoReducer(state, { type, payload: { text } }) {
   switch (type) {
     case "add_todo": {

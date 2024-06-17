@@ -1,17 +1,17 @@
 import { useState } from "react";
 
 export default function ToDoList() {
-  const [todos, setTodos] = useState(initialTodos);
   //  2. A list of "todo" items
-  //   const initialTodos = [
-  //     { number: 1, text: "Review React", completed: false },
-  //     { number: 2, text: "Plan Capstone", completed: false },
-  //     { number: 3, text: "Wireframe for Capstone", completed: false },
-  //     { number: 4, text: "React SBA", completed: false },
-  //     { number: 5, text: "Complete Capstone", completed: false },
-  //     { number: 6, text: "Present Capstone", completed: false },
-  //     { number: 7, text: "Graduate", completed: false },
-  //   ];
+  const initialTodos = [
+    { number: 1, text: "Review React", completed: false },
+    { number: 2, text: "Plan Capstone", completed: false },
+    { number: 3, text: "Wireframe for Capstone", completed: false },
+    { number: 4, text: "React SBA", completed: false },
+    { number: 5, text: "Complete Capstone", completed: false },
+    { number: 6, text: "Present Capstone", completed: false },
+    { number: 7, text: "Graduate", completed: false },
+  ];
+  const [todos, setTodos] = useState(initialTodos);
 
   return (
     <>
